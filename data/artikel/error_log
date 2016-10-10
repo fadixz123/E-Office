@@ -1,0 +1,4 @@
+[18-Sep-2016 09:41:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/indomedia/demo.indomedia.co.id/wp-admin/includes/template.php on line 156
+[18-Sep-2016 09:41:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/indomedia/demo.indomedia.co.id/wp-admin/includes/template.php on line 156
+[18-Sep-2016 09:41:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/indomedia/demo.indomedia.co.id/wp-admin/includes/class-walker-category-checklist.php on line 82
+[18-Sep-2016 09:41:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, object given in /home/indomedia/demo.indomedia.co.id/wp-admin/includes/class-walker-category-checklist.php on line 104

@@ -1,0 +1,10 @@
+[18-Sep-2016 03:07:52 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 346
+[18-Sep-2016 10:08:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 346
+[18-Sep-2016 03:08:38 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 346
+[18-Sep-2016 03:08:54 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 346
+[18-Sep-2016 10:09:06 Asia/Jakarta] PHP Fatal error:  Cannot use [] for reading in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 346
+[18-Sep-2016 03:09:27 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 346
+[18-Sep-2016 03:14:27 UTC] PHP Catchable fatal error:  Object of class WP_Term could not be converted to string in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 343
+[18-Sep-2016 03:14:53 UTC] PHP Catchable fatal error:  Object of class WP_Term could not be converted to string in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 343
+[18-Sep-2016 11:36:49 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /home/indomedia/demo.indomedia.co.id/e-office/page-post-editor.php on line 276
+[18-Sep-2016 10:20:03 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/indomedia/demo.indomedia.co.id/e-office/page-post-agenda.php on line 421

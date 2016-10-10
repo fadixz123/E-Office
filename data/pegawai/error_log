@@ -1,0 +1,15 @@
+[18-Sep-2016 16:36:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/edit.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/edit.php on line 26
+[18-Sep-2016 16:37:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/edit.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/edit.php on line 29
+[19-Sep-2016 01:57:05 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'keluar' (T_STRING), expecting ')' in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/cek-user.php on line 8
+[19-Sep-2016 03:08:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/cek-user.php on line 15
+[19-Sep-2016 03:08:38 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/cek-user.php on line 15
+[19-Sep-2016 05:20:59 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; GCMPushMessage has a deprecated constructor in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/gcm.php on line 22
+[19-Sep-2016 05:21:24 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; GCMPushMessage has a deprecated constructor in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/gcm.php on line 22
+[19-Sep-2016 05:39:41 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; GCMPushMessage has a deprecated constructor in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/gcm.php on line 22
+[19-Sep-2016 05:43:48 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; GCMPushMessage has a deprecated constructor in /home/indomedia/demo.indomedia.co.id/e-office/data/pegawai/gcm.php on line 22
