@@ -46,7 +46,7 @@
             </div>
         </div>
         <div id="two">
-            <img class="img-responsive" src="data/surat-masuk/file/<?php echo md5($row['nomor_surat']) . '.jpg'; ?>"/>
+            <img style="max-width: 100%;height: auto; padding:5px 20px" class="img-responsive" src="data/surat-masuk/file/<?php echo md5($row['nomor_surat']) . '.jpg'; ?>"/>
         </div>
         <div id="three">
             <div class="row edit">
