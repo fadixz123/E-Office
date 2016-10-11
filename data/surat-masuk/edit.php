@@ -7,6 +7,7 @@ $perihal=isset($_GET['perihal'])?$_GET['perihal']:'';
 $penjelasan=isset($_GET['penjelasan'])?$_GET['penjelasan']:'';
 $masuk=isset($_GET['masuk'])?$_GET['masuk']:'';
 $target_dir = "file/";
+$file = !empty($_FILES['file']) ? $_FILES['file'] : null;
 $nama=isset($_FILES["file"]["name"])?$_FILES["file"]["name"]:'';
 $error=isset($_FILES['file']['error'])?$_FILES['file']['error']:'';
 $target_file = $target_dir . basename($nama);
@@ -37,7 +38,7 @@ else{
 		$backup->execute(array($nosurat, serialize($row)));
 		$update = $db->prepare("UPDATE e_surat_masuk SET pengirim=?, perihal=?, keterangan=?, penerima=?, gambar=? WHERE nomor_surat=?");
 		$update->execute(array($pengirim, $perihal,$penjelasan, $masuk, $gambar, $nosurat));
-		if(!empty($nama)){
+		if($file || $file['size']){
 			if($error){
 				echo "Gambar tidak bisa diupload. Silahkan pilih yang lain!";
 			}
@@ -45,7 +46,9 @@ else{
 				echo $nama." bukan file jpg, jpeg, atau png.";
 			}
 			else{
-			move_uploaded_file($_FILES["file"]["tmp_name"], $target_dir.$gambar.'.jpg');
+                            if(move_uploaded_file($_FILES["file"]["tmp_name"], 'file/'.md5($nosurat).'.jpg')){
+                            }
+                            
 			}
 		}
 		echo 'berhasil';
