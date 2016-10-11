@@ -12,6 +12,7 @@ if (pos_kosong('tanggal-masuk', $tanggal_masuk)) exit('Kolom tanggal masuk tidak
 if (pos_kosong('nosurat', $nosurat)) exit('Kolom No. Surat tidak boleh kosong!');
 if (pos_kosong('pengirim', $pengirim)) exit('Kolom pengirim tidak boleh kosong!');
 if (pos_kosong('perihal', $perihal)) exit('Kolom perihal tidak boleh kosong!');
+if (pos_kosong('penerima', $penerima)) exit('Kolom Penerima tidak boleh kosong!');
 if (pos_kosong('penjelasan', $penjelasan)) exit('Kolom penjelasan tidak boleh kosong!');
 
 $file = !empty($_FILES['file']) ? $_FILES['file'] : null;
@@ -24,10 +25,10 @@ if ($status && $status->fetchObject()) exit("Data Sudah ada!");
 
 $stmt = $db->prepare(
 	'insert into e_surat_masuk (
-		tanggal, tanggal_masuk, nomor_surat, perihal, pengirim, keterangan, user_id, disposisi_kadin, disposisi_kabid 
-	) VALUES (?, ?, ?, ?, ?, ?, ?, "", "")'
+		tanggal, tanggal_masuk, nomor_surat, perihal, pengirim, penerima, keterangan, user_id, disposisi_kadin, disposisi_kabid 
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, "", "")'
 );
-$stmt = $stmt->execute(array($tanggal, $tanggal_masuk, $nosurat, $perihal, $pengirim, $penjelasan, $user->id));
+$stmt = $stmt->execute(array($tanggal, $tanggal_masuk, $nosurat, $perihal, $pengirim, $penerima, $penjelasan, $user->id));
 if($stmt) {
 	if (!move_uploaded_file($_FILES["file"]["tmp_name"], 'file/'.md5($nosurat).'.jpg')) {
 		exit("Gagal menyimpan gambar".$_FILES['file']['error']);
